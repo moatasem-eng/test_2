@@ -1,0 +1,85 @@
+/* sidebar */
+.sideBar {
+    width: 300px;
+    left: -240px;
+    z-index: 9999;
+}
+
+
+.openBar{
+    width: 60px;
+}
+.open {
+    font-size: 30px;
+}
+.openBar img{
+    width:80% ;
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+.closeBar{
+    width: 240px;
+    
+}
+
+.closeBar ul li  {
+    text-decoration: none;
+    position: relative;
+    padding-top: 10px;
+    color: white;
+    
+}
+.closeBar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+}
+.closeBar ul li a:hover {
+    color: #dc3545;
+    
+}
+
+
+.closeBar-footer span{
+    color: #dc3545;
+    transition: 0.3s all;
+}
+.closeBar-footer span:hover{
+    opacity: 0.7;
+}
+/* ------------------------------------------------------------- */
+
+/* movies */
+.movieCaption {
+    opacity: 0;
+    top: 0;
+    margin-left: 10px;
+    max-width: 400px;
+    transition: 0.6s;
+
+}
+.movieCaption:hover {
+    opacity: 1;
+}
+.movieCaption h2{
+    color: #ffe100;
+}
+.movieBox{
+    overflow: hidden;
+}
+.movieBox img {
+    
+    transition: 0.3s all;
+}
+.movieBox:hover img {
+    scale: 1.1;
+    transform: rotate(5deg);
+    
+}
+.movieBox:hover img .movieCaption{
+    background-color: rgba(0,0,0,0.7);
+    opacity: 1;
+}
